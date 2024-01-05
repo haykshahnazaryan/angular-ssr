@@ -23,6 +23,10 @@ jobs:
       - name: Build Angular App
         run: npm run build
 
+      - name: Debug
+        run: |
+          ls -lR $GITHUB_WORKSPACE
+
   deploy:
     runs-on: ubuntu-latest
 
