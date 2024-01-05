@@ -22,6 +22,10 @@ jobs:
 
       - name: Build Angular App
         run: npm run build
+        
+      - name: Debug
+        run: |
+          ls -lR dist
 
   deploy:
     runs-on: ubuntu-latest
