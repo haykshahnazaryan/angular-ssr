@@ -33,7 +33,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
           branch: main
-          folder: dist/angular-ssr
+          folder: dist/pre
 
 
 
